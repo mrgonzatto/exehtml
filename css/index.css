@@ -1,0 +1,75 @@
+#divPrincipal {
+    width: 80%;    
+    margin: 0 auto;
+}
+
+#divBanner {
+    width:100%;
+    height: 250px;
+    background-image: url("../imgs/banner.jpg");
+}
+
+#navTopo {
+    background-color: #0C904A;
+    width: 100%;
+}
+
+    #navTopo ul {
+        background-color: #0C904A;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width:100%;
+        overflow:hidden;
+    }
+
+        #navTopo ul li {
+            background-color: #0C904A;
+            float: left;
+        }
+
+            #navTopo ul li a {
+                display:block;
+                color: yellow;
+                text-align:center;
+                padding:15px;
+                text-decoration:none;
+            }
+
+                #navTopo ul li a:hover {
+                    background-color: yellow;
+                    color: #0c904a;
+                }
+
+#divCentro {
+    width:100%;  
+}
+
+#sectionEsquerda {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+#asideDireita {
+    width: 50%;
+    float: right;
+    text-align:center;
+}
+
+.produto {
+    width:80%;
+}
+
+    .produto img {
+        max-width: 50%;
+    }
+
+footer {
+    width:100%;
+    text-align: center;
+    background-color: #0C904A;
+    color:yellow;
+    font-weight: bold;
+    padding:5px;
+}
